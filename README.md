@@ -14,6 +14,7 @@ CSGO gamestate integration for OBS.
   - Ex:&nbsp;&nbsp;&nbsp;`http://192.168.0.3:3000`
 
 ## Demo
+Double kill triggers animation and sound.
 [![](https://imgur.com/bFf8eyF.png)](https://gfycat.com/aggressivesafechrysomelid)
 
 ## Notes
@@ -22,3 +23,6 @@ A golang webserver accepts CSGO's gamestate payloads and forwards the JSON via w
 Tried using AJAX to poll the webserver for gamestate data, but you are stuck on an interval which leads to an obvious on-screen delay. You could try polling at 10ms, but that doesn't scale well to even a home network. If events arrive too quickly, they need to be queued and then batch processed, which just leads to more delay. Using websockets was much better; I had difficulty even measuring the time it took an event to be received.  
   
 Next up is I need to write a ton of event logic and figure out some dumb graphics.
+
+## Dev
+You can write your own javascript event logic and use your own assets
