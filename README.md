@@ -14,7 +14,7 @@ CSGO gamestate integration for OBS.
   - Ex:&nbsp;&nbsp;&nbsp;`http://192.168.0.3:3000`
 
 ## Demo
-Double kill triggers animation and sound.
+In-game event (double kill) triggers animation and sound.  
 [![](https://imgur.com/bFf8eyF.png)](https://gfycat.com/aggressivesafechrysomelid)
 
 ## Notes
