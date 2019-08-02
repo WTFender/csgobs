@@ -1,7 +1,7 @@
 # CSGOBS
 CSGO gamestate integration for OBS.
 
-## Quickstart
+## Setup
 - Save [gamestate_integration_csgobs.cfg](gamestate_integration_csgobs.cfg) to your cfg directory:
   - Default:&nbsp;&nbsp;&nbsp;`C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg`
 - Run server.exe.
