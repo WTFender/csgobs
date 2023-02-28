@@ -1,9 +1,10 @@
 package main
 
 import (
-	"fmt"
 	"bytes"
+	"fmt"
 	"net/http"
+
 	"github.com/gorilla/websocket"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
@@ -11,6 +12,12 @@ import (
 
 var upgrader = websocket.Upgrader{}
 var socks []*websocket.Conn
+
+/*
+func staticFile(fn string) ([]byte, error) {
+	return ioutil.ReadFile("static/" + fn)
+}
+*/
 
 // serve index.html
 func serveIndex(c echo.Context) error {
