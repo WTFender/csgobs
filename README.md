@@ -17,4 +17,4 @@ CSGO gamestate integration for OBS.
 ## Demo
 In-game event (double kill) triggers animation and sound.  
 
-[![](https://imgur.com/bFf8eyF.png)](https://gfycat.com/aggressivesafechrysomelid)
+https://github.com/user-attachments/assets/b10b4a4c-9018-4b51-ba2b-9fd834f28345
